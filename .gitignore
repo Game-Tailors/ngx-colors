@@ -2,7 +2,7 @@
 
 # compiled output
 # We include /dist so that we can directly use the repo in NPM
-#/dist
+/dist
 /tmp
 /out-tsc
 # Only exists if Bazel was run
