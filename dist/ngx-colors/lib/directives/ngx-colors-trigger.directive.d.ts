@@ -1,0 +1,32 @@
+import { EventEmitter, ElementRef, ComponentRef } from '@angular/core';
+import { PanelFactoryService } from '../services/panel-factory.service';
+import { PanelComponent } from '../components/panel/panel.component';
+import { ControlValueAccessor } from '@angular/forms';
+import { NgxColor } from '../clases/color';
+export declare class NgxColorsTriggerDirective implements ControlValueAccessor {
+    private triggerRef;
+    private panelFactory;
+    color: string;
+    colorsAnimation: 'slide-in' | 'popup';
+    palette: Array<string> | Array<NgxColor>;
+    format: string;
+    hideTextInput: boolean;
+    hideColorPicker: boolean;
+    acceptLabel: string;
+    change: EventEmitter<string>;
+    input: EventEmitter<string>;
+    onClick(): void;
+    constructor(triggerRef: ElementRef, panelFactory: PanelFactoryService);
+    panelRef: ComponentRef<PanelComponent>;
+    onTouchedCallback: () => void;
+    onChangeCallback: (_: any) => void;
+    open(): void;
+    close(): void;
+    onChange(): void;
+    setColor(color: any): void;
+    get value(): string;
+    set value(value: string);
+    writeValue(value: any): void;
+    registerOnChange(fn: any): void;
+    registerOnTouched(fn: any): void;
+}

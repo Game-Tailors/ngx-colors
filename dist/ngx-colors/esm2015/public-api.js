@@ -1,0 +1,8 @@
+/*
+ * Public API Surface of ngx-colors
+ */
+export * from './lib/directives/ngx-colors-trigger.directive';
+export * from './lib/ngx-colors.component';
+export * from './lib/ngx-colors.module';
+export * from './lib/clases/color';
+//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoicHVibGljLWFwaS5qcyIsInNvdXJjZVJvb3QiOiIiLCJzb3VyY2VzIjpbIi4uLy4uLy4uL3Byb2plY3RzL25neC1jb2xvcnMvc3JjL3B1YmxpYy1hcGkudHMiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUE7O0dBRUc7QUFDSCxjQUFjLCtDQUErQyxDQUFDO0FBQzlELGNBQWMsNEJBQTRCLENBQUM7QUFDM0MsY0FBYyx5QkFBeUIsQ0FBQztBQUN4QyxjQUFjLG9CQUFvQixDQUFDIiwic291cmNlc0NvbnRlbnQiOlsiLypcclxuICogUHVibGljIEFQSSBTdXJmYWNlIG9mIG5neC1jb2xvcnNcclxuICovXHJcbmV4cG9ydCAqIGZyb20gJy4vbGliL2RpcmVjdGl2ZXMvbmd4LWNvbG9ycy10cmlnZ2VyLmRpcmVjdGl2ZSc7XHJcbmV4cG9ydCAqIGZyb20gJy4vbGliL25neC1jb2xvcnMuY29tcG9uZW50JztcclxuZXhwb3J0ICogZnJvbSAnLi9saWIvbmd4LWNvbG9ycy5tb2R1bGUnO1xyXG5leHBvcnQgKiBmcm9tICcuL2xpYi9jbGFzZXMvY29sb3InO1xyXG4iXX0=
