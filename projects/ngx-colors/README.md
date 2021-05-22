@@ -1,10 +1,7 @@
-<p align="center">
-  <h1 align="center">ngx-colors</h1>
-  <p align="center">A beautiful color picker for angular that let you choose from a 
-color palette, using sliders (Hue, Lightness, Alpha sliders) or through text input(hex, rgba, hsla) 
+ngx-colors
+==========
 
-  </p>
-</p>
+**This is a fork of [ngx-colors](https://github.com/KroneCorylus/ngx-colors), in order to support Angular 11.**
 
 ## Demo and documentation
 
@@ -18,7 +15,7 @@ https://ngx-colors.web.app/
 ## Installation
 
 #### Npm
-```shell
+```shel
 npm install @angular/animations
 ```
 
